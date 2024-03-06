@@ -61,7 +61,7 @@ implementation choices:
 
 5) PacManWidget is used to handle game GUI.
 
-6) PacmanGridGameModeBase is an empty class required by Unreal Engine. TestGridGameMode handles the game state machine, 
+6) PacmanGridGameModeBase and PacmanGrid are empty classes required by Unreal Engine in this project. TestGridGameMode handles the game state machine, 
    which is implemented with function defined in this class. Each state will trigger specific actions for every 
    pawn (defined in their classes). These states are defined in enum ECurrentState, except for RESPAWN state that is
    handled with a boolean since it affects only ghosts.
